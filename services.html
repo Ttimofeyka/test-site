@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="СООО «ТИМИОР» специализируется в области инжиниринговых услуг для предприятий энергетического комплекса и промышленности">
+    <meta name="keywords" content="ТИМИОР, инжиниринг, проектирование, энергетика, промышленность, модернизация, электротехническое оборудование">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <title>"ТИМИОР" | Проектирование</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        /* Дополнительные стили для страницы услуг */
+        .services-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+        
+        .services-header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .services-header p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        .service-item {
+            display: flex;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            align-items: flex-start;
+        }
+        
+        .service-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-content {
+            flex: 1;
+        }
+        
+        .service-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .service-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: var(--secondary-color);
+        }
+        
+        .breadcrumb {
+            padding: 15px 0;
+            margin-bottom: 20px;
+            color: var(--gray-color);
+            font-size: 14px;
+        }
+        
+        .breadcrumb a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .breadcrumb span {
+            margin: 0 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .service-item {
+                flex-direction: column;
+            }
+            
+            .service-img {
+                width: 100%;
+                height: auto;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .services-header {
+                padding: 50px 20px;
+            }
+            
+            .services-header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <a href="./index.html" class="logo">СООО <span>ТИМИОР</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="#" class="active">Услуги</a></li>
+                    <li><a href="./history.html">История</a></li>
+                    <li><a href="./reference_list.html">Референс-лист</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <br>
+        <div class="services-header">
+            <h1>Проектирование</h1>
+            <p>Компания "Тимиор" предлагает полный спектр проектных работ для предприятий энергетического комплекса и промышленности</p>
+        </div>
+        
+        <section class="content-section">
+            <div class="service-item">
+                <img src="./images/project.png" alt="Проектные работы" class="service-img">
+                <div class="service-content">
+                    <h3>Проектные работы</h3>
+                    <p align="justify">Компания "Тимиор" предлагает полный спектр проектных работ</p>
+                    <a href="./project_works.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-item">
+                <img src="./images/att.png" alt="Аттестаты" class="service-img">
+                <div class="service-content">
+                    <h3>Аттестаты</h3>
+                    <p align="justify">Аттестаты Министерства архитектуры и строительства Республики Беларусь</p>
+                    <a href="./diplomas.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-item">
+                <img src="./images/att.png" alt="Лицензии" class="service-img">
+                <div class="service-content">
+                    <h3>Лицензии</h3>
+                    <p align="justify">Лицензия Госпромнадзора</p>
+                    <a href="./licenses.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-item">
+                <img src="./images/att.png" alt="Сертификаты" class="service-img">
+                <div class="service-content">
+                    <h3>Сертификаты</h3>
+                    <p align="justify">Сертификаты СТБ ISO 9001-2015</p>
+                    <a href="./certificates.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <div class="service-item">
+                <img src="./images/galka.png" alt="Отзывы" class="service-img">
+                <div class="service-content">
+                    <h3>Отзывы</h3>
+                    <p align="justify">Отзывы о выполнении проектных работ СООО "Тимиор"</p>
+                    <a href="./feedback.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-contact">
+                    <h3>Контакты</h3>
+                    <p><span class="icon">🏢</span> ул. Аранская, 22а, 220033, г. Минск</p>
+                    <p><span class="icon">📞</span> тел.: 388 93 81</p>
+                    <p><span class="icon">📠</span> факс: 388 93 85</p>
+                    <p><span class="icon">✉️</span> email: timior@timior.by</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Реквизиты</h3>
+                    <p>УНП 800008931, ОКПО 37551736</p>
+                    <p>р. сч. BY62PJCB30120140971000000933 в «Приорбанк» ОАО</p>
+                    <p>BIC PJCBBY2X</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>СООО "ТИМИОР"</p>
+                <!-- <p><a href="http://abiatec.by">Abiatec – Поддержка и продвижение сайта.</a></p> -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
