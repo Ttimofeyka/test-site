@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты СООО «ТИМИОР» - проектирование и инжиниринг для предприятий энергетического комплекса и промышленности">
+    <meta name="keywords" content="ТИМИОР, контакты, адрес, телефон, реквизиты, обратная связь">
+    <title>"ТИМИОР" | Контакты</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        .contact-form {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .contact-form input[type="text"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .contact-form textarea {
+            min-height: 150px;
+        }
+        
+        .required-field::after {
+            content: " *";
+            color: #e63946;
+        }
+        
+        .submit-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .contact-info-block {
+            margin-bottom: 30px;
+        }
+        
+        .contact-info-block h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .company-details {
+            background-color: #f0f4f8;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <a href="./index.html" class="logo"><span>СООО "ТИМИОР"</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                    <li><a href="./history.html">История</a></li>
+                    <li><a href="./reference_list.html">Референс-лист</a></li>
+                    <li><a href="#" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content-section">
+            <h2 style="color: black;">Контакты</h2>
+            
+            <div class="company-details">
+                <h2>Совместное общество с ограниченной ответственностью «ТИМИОР»</h2>
+                
+                <div class="contact-info-block">
+                    <h3>Руководство:</h3>
+                    <p>Главный инженер: Горбылев Сергей Владимирович</p>
+                    <p>тел. <strong>+375-17-388-93-81</strong></p>
+                    <p>факс <strong>+375-17-388-93-85</strong></p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>Юридический адрес:</h3>
+                    <p>ул. Аранская, 22а, 220033, г. Минск, Республика Беларусь</p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>Почтовый адрес:</h3>
+                    <p>ул. Аранская, 22а, 220033, г. Минск, Республика Беларусь</p>
+                    <p>email: <strong>timior@timior.by</strong></p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>Банковские реквизиты:</h3>
+                    <p>УНП 800008931, ОКПО 37551736</p>
+                    <p>р. сч. BY62PJCB30120140971000000933 в «Приорбанк» ОАО, по адресу: 220002, г. Минск, ул. В. Хоружей, 31А</p>
+                    <p>BIC PJCBBY2X</p>
+                </div>
+            </div>
+            
+            <h2 style="color: black;">Связаться с нами</h2>
+            
+            <div class="contact-form">
+                <p><i><span>*</span> Поля обязательные для заполнения.</i></p>
+                
+                <form id="contactForm" method="post">
+                    <div class="form-group">
+                        <label for="name" class="required-field">Имя (компания)</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="required-field">Email</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="required-field">Телефон</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="required-field">Сообщение</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-contact">
+                    <h3>Контакты</h3>
+                    <p><span class="icon">🏢</span> ул. Аранская, 22а, 220033, г. Минск</p>
+                    <p><span class="icon">📞</span> тел.: 388 93 81</p>
+                    <p><span class="icon">📠</span> факс: 388 93 85</p>
+                    <p><span class="icon">✉️</span> email: timior@timior.by</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Реквизиты</h3>
+                    <p>УНП 800008931, ОКПО 37551736</p>
+                    <p>р. сч. BY62PJCB30120140971000000933 в «Приорбанк» ОАО</p>
+                    <p>BIC PJCBBY2X</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>СООО "ТИМИОР"</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Здесь должна быть логика отправки формы
+            alert('Спасибо. Мы свяжемся с вами в ближайшее время.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
